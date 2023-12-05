@@ -37,3 +37,7 @@ Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+z
+Jcustomer/src/main/java/code/with/vanilson/customer/CustomerRepository.java,8\4\8417b739c8b57d8fd9e73c670e824b1f275e921f
+=
+data/data.sql,e\2\e2f8e33aed953955ae7d0902faa77dd6d20bb0e5
