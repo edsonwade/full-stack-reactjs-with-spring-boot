@@ -3,6 +3,9 @@ package code.with.vanilson.customer;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.io.Serial;
+import java.io.Serializable;
+
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -10,7 +13,10 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class Customer {
+public class Customer implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 2345564122L;
+
     @Id
     @SequenceGenerator(
             name = "customer_id_sequence",
@@ -22,6 +28,5 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String email;
-
 
 }
