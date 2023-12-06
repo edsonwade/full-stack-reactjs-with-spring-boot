@@ -4,66 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee966-0f1c-451d-90ef-dea2800f11af" name="Changes" comment="customer works perfectly">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25694dcf9779da15d92c6fee387823c0eb40e01e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3546fc8c10dfd69ae442eaa4fa83667d8687fcbb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43095b925c4429be5ecf37398ee4d232f485d213" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58830d5d3847ba808390e63b343b182ee97f28cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80738a18ed2b51a78af0084e90242b3b0b503a9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b9bff29f0a19fbb69a5a69386114cb91a3e3d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8417b739c8b57d8fd9e73c670e824b1f275e921f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7a0c9088520094bfe65647b337f03b3b7b06b97" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f04db7a99ce1257e856612bd563cd946a39fac96" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/25694dcf9779da15d92c6fee387823c0eb40e01e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/5/3546fc8c10dfd69ae442eaa4fa83667d8687fcbb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/43095b925c4429be5ecf37398ee4d232f485d213" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/8/58830d5d3847ba808390e63b343b182ee97f28cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/80738a18ed2b51a78af0084e90242b3b0b503a9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/82b9bff29f0a19fbb69a5a69386114cb91a3e3d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/8417b739c8b57d8fd9e73c670e824b1f275e921f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b7a0c9088520094bfe65647b337f03b3b7b06b97" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f04db7a99ce1257e856612bd563cd946a39fac96" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5d0ee966-0f1c-451d-90ef-dea2800f11af" name="Changes" comment="fraud">
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/CustomerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/FraudCheckResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4/storage_v2/_src_/database/fraud.ZKrSBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4/storage_v2/_src_/database/fraud.ZKrSBQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58830d5d3847ba808390e63b343b182ee97f28cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58830d5d3847ba808390e63b343b182ee97f28cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistoryController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="Record" />
       </list>
     </option>
@@ -85,12 +40,24 @@
         <entry key="$PROJECT_DIR$" value="001-Customer" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ZANcigScdZxdVBbqqufySX1S1D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -99,11 +66,18 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "002-fraud",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/microservice/fraud/src/main/resources",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -119,7 +93,10 @@
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\microservice\fraud\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FraudApplication">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #36">
+    <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="customer" />
@@ -143,16 +120,47 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #36" />
         <item itemvalue="Spring Boot.FraudApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="fraud">
+      <option name="closed" value="true" />
+      <created>1701818002059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701818002059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fraud">
+      <option name="closed" value="true" />
+      <created>1701818033578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701818033578</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d0ee966-0f1c-451d-90ef-dea2800f11af" name="Changes" comment="fraud" />
+      <created>1701861017501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701861017501</updated>
+      <workItem from="1701861021380" duration="3216000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="customer works perfectly" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer works perfectly" />
+    <MESSAGE value="fraud" />
+    <option name="LAST_COMMIT_MESSAGE" value="fraud" />
   </component>
 </project>

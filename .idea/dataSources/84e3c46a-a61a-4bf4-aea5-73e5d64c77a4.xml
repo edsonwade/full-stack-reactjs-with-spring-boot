@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>794</IntrospectionStateNumber>
+      <IntrospectionStateNumber>800</IntrospectionStateNumber>
       <ServerVersion>15.1</ServerVersion>
       <StartupTime>1701681982</StartupTime>
       <TimeZones>true ACDT
@@ -809,7 +809,7 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>794</IntrospectionStateNumber>
+      <IntrospectionStateNumber>800</IntrospectionStateNumber>
       <ObjectId>16468</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4235,9 +4235,9 @@ false Zulu
     <schema id="266" parent="4" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>794</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-12-05.22:51:54.843</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-05.22:51:55</LocalIntrospectionTimestamp>
+      <IntrospectionStateNumber>800</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2023-12-06.11:33:55.539</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-06.11:33:56</LocalIntrospectionTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4245,7 +4245,7 @@ false Zulu
     <sequence id="267" parent="266" name="fraud_id_sequence">
       <DasType>bigint|0s</DasType>
       <ObjectId>16474</ObjectId>
-      <SequenceIdentity>1(1)+50</SequenceIdentity>
+      <SequenceIdentity>1(51)+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>793</StateNumber>
       <OwnerName>postgres</OwnerName>

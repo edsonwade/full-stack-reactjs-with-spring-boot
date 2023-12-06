@@ -1,20 +1,14 @@
 
 7
-HELP.md,1\a\1a273f73b7a477b0745593641bd708a6182c7ad5
-7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 @
 customer/pom.xml,f\0\f04db7a99ce1257e856612bd563cd946a39fac96
-c
-3customer/src/main/java/code/with/vanilson/Main.java,e\c\ecefcd8599963bfbcafd3057d276dd861e6dc6d3
 r
 Bcustomer/src/main/java/code/with/vanilson/CustomerApplication.java,4\3\43095b925c4429be5ecf37398ee4d232f485d213
 p
 @customer/src/main/java/code/with/vanilson/customer/Customer.java,b\7\b7a0c9088520094bfe65647b337f03b3b7b06b97
 z
 Jcustomer/src/main/java/code/with/vanilson/customer/CustomerController.java,3\5\3546fc8c10dfd69ae442eaa4fa83667d8687fcbb
-x
-Hcustomer/src/main/java/code/with/vanilson/customer/CustomerRegister.java,4\3\434dc85a8fb3bfdda2769a2f88cb6cc894f056f5
 ƒ
 Scustomer/src/main/java/code/with/vanilson/customer/CustomerRegistrationRequest.java,2\5\25694dcf9779da15d92c6fee387823c0eb40e01e
 w
@@ -40,11 +34,7 @@ S
 z
 Jcustomer/src/main/java/code/with/vanilson/customer/CustomerRepository.java,8\4\8417b739c8b57d8fd9e73c670e824b1f275e921f
 =
-data/data.sql,e\2\e2f8e33aed953955ae7d0902faa77dd6d20bb0e5
-=
 fraud/pom.xml,d\0\d024669e89b7b66ac8ba07340a73edc6aa228259
-`
-0fraud/src/main/java/code/with/vanilson/Main.java,d\e\de00530b8e2e6a0d567e58ee8742c20d44787bbd
 l
 <fraud/src/main/java/code/with/vanilson/FraudApplication.java,7\c\7c5f4981a92809c6f10401d8656b45180a9f1cb3
 m
@@ -159,3 +149,7 @@ w
 G.idea/sonarlint/issuestore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259,d\4\d40c6032c2e14c105082815c05efa8a3ae998f36
 9
 	fraud.iml,4\c\4cbf3d78fcfc1c48d9ea8aaeb20f66c0c4de6acb
+v
+Fcustomer/src/main/java/code/with/vanilson/customer/CustomerConfig.java,f\0\f03c525567e965c621025992839435ed973a3203
+z
+Jcustomer/src/main/java/code/with/vanilson/customer/FraudCheckResponse.java,0\8\086422c90405ebce5cb32fc3bbbf2d28fe977808
