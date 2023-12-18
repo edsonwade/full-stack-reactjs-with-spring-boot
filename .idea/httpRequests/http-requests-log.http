@@ -1,0 +1,15 @@
+POST http://localhost:8081/api/v1/customers
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "sonia@now.here",
+  "firstName": "sonia",
+  "lastName": "rosa"
+}
+
+###
+

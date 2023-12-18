@@ -95,8 +95,6 @@ Q.idea/sonarlint/securityhotspotstore/8/0/80738a18ed2b51a78af0084e90242b3b0b503a
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 Å
 Q.idea/sonarlint/securityhotspotstore/3/1/312e3c1597aed1fdafea997df973c3228fd60642,5\9\5993c94dc29b0bf66a31da3712c4a31d81bcf106
-Å
-Q.idea/sonarlint/securityhotspotstore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5,e\a\ea86cb56ad0caa4337b46bb078835ef8e244d942
 w
 G.idea/sonarlint/issuestore/0/2/022eecfba0f35286b40f3fab4e15670b7703bd26,a\6\a6b0634155940c6b4a6b09f31d59ca89887d710c
 w
@@ -107,8 +105,6 @@ Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140
 Q.idea/sonarlint/securityhotspotstore/b/7/b7a0c9088520094bfe65647b337f03b3b7b06b97,8\c\8c8407c808944be0b58f5db76e64ea0a7bb01b8a
 w
 G.idea/sonarlint/issuestore/8/2/82b9bff29f0a19fbb69a5a69386114cb91a3e3d2,6\3\63baf82e253f4023a462ba5a2d73cda33340e500
-w
-G.idea/sonarlint/issuestore/e/2/e2f8e33aed953955ae7d0902faa77dd6d20bb0e5,b\8\b89df0732b3ead680cc2516bbb8de1c552fd77d1
 Å
 Q.idea/sonarlint/securityhotspotstore/2/5/25694dcf9779da15d92c6fee387823c0eb40e01e,a\7\a7ed0ec52f23ad3b113d74eac9374d1abb0cc4e6
 Å
@@ -141,10 +137,6 @@ Q.idea/sonarlint/securityhotspotstore/3/5/3546fc8c10dfd69ae442eaa4fa83667d8687fc
 Q.idea/sonarlint/securityhotspotstore/3/5/35b8c13cf2eb2a194eada000eb310d65aed53b2a,c\d\cdb41fff691175c26b6b290b03da638b954ee337
 Å
 Q.idea/sonarlint/securityhotspotstore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259,d\4\d4f8ebceb7b474577a84aae2b4a660d32b8d5781
-Å
-Q.idea/sonarlint/securityhotspotstore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd,d\6\d6dd1f3f4f19ee822d352ea9fd4c3695cd7ae658
-w
-G.idea/sonarlint/issuestore/d/e/de00530b8e2e6a0d567e58ee8742c20d44787bbd,7\e\7e5acbe7b22ee0a24b766f9a725f354f5b22df1b
 w
 G.idea/sonarlint/issuestore/d/0/d024669e89b7b66ac8ba07340a73edc6aa228259,d\4\d40c6032c2e14c105082815c05efa8a3ae998f36
 9
@@ -153,3 +145,7 @@ v
 Fcustomer/src/main/java/code/with/vanilson/customer/CustomerConfig.java,f\0\f03c525567e965c621025992839435ed973a3203
 z
 Jcustomer/src/main/java/code/with/vanilson/customer/FraudCheckResponse.java,0\8\086422c90405ebce5cb32fc3bbbf2d28fe977808
+Y
+).idea/httpRequests/http-requests-log.http,a\1\a106acbd90b93270c10000b1d79e0fa515a6bc67
+V
+&.idea/httpRequests/http-client.cookies,3\7\37b0fae35443637ed0e21b8ad0ca1bf3c2c2e7e1
