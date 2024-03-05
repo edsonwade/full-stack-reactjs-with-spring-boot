@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="update projects" />
+    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="update project.">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/new-tk-github.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/new-tk-github.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +41,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/Spring-Boot-And-React-APP/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,6 +50,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring-Boot-And-React-APP\backend" />
+    </key>
+  </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -117,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709655121990</updated>
-      <workItem from="1709655123248" duration="3125000" />
+      <workItem from="1709655123248" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="update projects">
       <option name="closed" value="true" />
@@ -127,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709657813002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update project.">
+      <option name="closed" value="true" />
+      <created>1709658532862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709658532862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="update projects" />
+    <MESSAGE value="update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="update project." />
   </component>
 </project>
