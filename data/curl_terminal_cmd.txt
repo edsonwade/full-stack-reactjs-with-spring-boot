@@ -1,0 +1,14 @@
+GET Request:
+curl http://example.com/api/resource
+
+POST Request with JSON Body:
+curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://example.com/api/resource
+
+PUT Request with Form Data:
+curl -X PUT -d "key1=value1&key2=value2" http://example.com/api/resource
+
+DELETE Request:
+curl -X DELETE http://example.com/api/resource
+
+EXAMPLE POST
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"user\",\"password\":\"6f9c5241-084b-40c8-ab62-9bdcc44be631\"}" http://localhost:8081

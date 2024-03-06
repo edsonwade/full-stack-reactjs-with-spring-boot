@@ -1,0 +1,67 @@
+protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
+        throws ServletException, IOException {
+    String authHeader = request.getHeader("Authorization");
+
+    if (authHeader != null && authHeader.startsWith("Bearer ")) {
+        String token = authHeader.substring(7);
+        String username = jwtService.extractUsername(token);
+
+        if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+            UserDetails userDetails = userDetailsServiceImpl.loadUserByUsername(username);
+            if (jwtService.validateToken(token, userDetails)) {
+                UsernamePasswordAuthenticationToken authenticationToken =
+                        new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+                authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+            }
+        }
+    }
+
+    filterChain.doFilter(request, response);
+}
+
+
+  @Override
+    protected void doFilterInternal(HttpServletRequest request, @Nonnull HttpServletResponse response,
+                                    @Nonnull FilterChain filterChain)
+            throws ServletException, IOException {
+        String authHeader = request.getHeader("Authorization");
+        String token = null;
+        String username = null;
+        if (authHeader != null && authHeader.startsWith("Bearer ")) {
+            token = authHeader.substring(7);
+            username = jwtService.extractUsername(token);
+        }
+
+        if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+            UserDetails userDetails = userDetailsServiceImpl.loadUserByUsername(username);
+            if (jwtService.validateToken(token, userDetails)) {
+                UsernamePasswordAuthenticationToken
+                        authenticationToken =
+                        new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+                authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+                SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+            }
+
+        }
+
+        filterChain.doFilter(request, response);
+
+    }
+
+
+     @Bean
+        public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+            return http
+                    .cors(AbstractHttpConfigurer::disable)
+                    .csrf(AbstractHttpConfigurer::disable)
+                    .authorizeRequests(auth -> auth
+                            .requestMatchers("/api/v1/login", "/api/v1/**").permitAll()
+                            .anyRequest().authenticated())
+                    .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                    .authenticationProvider(authenticationProvider())
+                    .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class).build();
+
+        }
+
+      https://stackoverflow.com/questions/74683225/updating-to-spring-security-6-0-replacing-removed-and-deprecated-functionality/74688849#74688849

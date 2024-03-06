@@ -12,5 +12,17 @@
     <groupId>code.with.vanilson</groupId>
     <artifactId>backend</artifactId>
 
-
+   <dependencies>
+       <dependency>
+           <groupId>org.postgresql</groupId>
+           <artifactId>postgresql</artifactId>
+           <scope>runtime</scope>
+           <version>42.7.0</version>
+       </dependency>
+       <dependency>
+           <groupId>io.jsonwebtoken</groupId>
+           <artifactId>jjwt-api</artifactId>
+           <version>0.11.5</version>
+       </dependency>
+   </dependencies>
 </project>

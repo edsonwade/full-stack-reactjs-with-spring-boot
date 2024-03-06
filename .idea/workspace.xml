@@ -4,25 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="tk">
+    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="tkens">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/HELPER/RefreshableCRUDRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/api/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/api/AuthRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/api/JwtResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/api/RefreshTokenRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/assigment/Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/security/JwtSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/exception/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/exception/UserBadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/user/exception/UsernameNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/curl_terminal_cmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/http-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/making_better_jwtauthfilter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/spring-password-as-static.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/new-tk-github.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/new-tk-github.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/code/with/vanilson/BackendApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/code/with/vanilson/BackendApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dHBSAD7ZqciDWbvsYnK4SBbGtq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,11 +86,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.generated-requests | #41.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
+    "Spring Boot.BackendApplication.executor": "Run",
+    "git-widget-placeholder": "001-backend",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/Spring-Boot-And-React-APP/backend",
     "node.js.detected.package.eslint": "true",
@@ -47,9 +105,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="code.with.vanilson" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring-Boot-And-React-APP\backend" />
     </key>
@@ -61,7 +127,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -92,11 +165,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="generated-requests | #41" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="41" requestIdentifier="#41" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
-        <env name="POSTGRES_USERNAME" value="postgres" />
-        <env name="POSTGRES_PASSWORD" value="Janina1." />
         <env name="POSTGRES_DB" value="simple_api" />
+        <env name="POSTGRES_PASSWORD" value="Janina1." />
+        <env name="POSTGRES_USERNAME" value="postgres" />
+        <env name="SECRET_KEY" value="357638792F423F4428472B4B6250655368566D597133743677397A2443264629" />
       </envs>
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="backend (1) (code.with.vanilson)" />
@@ -110,6 +187,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #41" />
+      <item itemvalue="Spring Boot.BackendApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #41" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,7 +213,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709655121990</updated>
-      <workItem from="1709655123248" duration="5516000" />
+      <workItem from="1709655123248" duration="6731000" />
+      <workItem from="1709664015167" duration="17844000" />
     </task>
     <task id="LOCAL-00001" summary="update projects">
       <option name="closed" value="true" />
@@ -161,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709659168961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tkens">
+      <option name="closed" value="true" />
+      <created>1709660664188</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709660664188</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +267,7 @@
     <MESSAGE value="update project." />
     <MESSAGE value="not workings" />
     <MESSAGE value="tk" />
-    <option name="LAST_COMMIT_MESSAGE" value="tk" />
+    <MESSAGE value="tkens" />
+    <option name="LAST_COMMIT_MESSAGE" value="tkens" />
   </component>
 </project>
