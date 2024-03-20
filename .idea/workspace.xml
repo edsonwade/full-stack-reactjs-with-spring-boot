@@ -4,7 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0ee966-0f1c-451d-90ef-dea2800f11af" name="Changes" comment="both services communicate with each other" />
+    <list default="true" id="5d0ee966-0f1c-451d-90ef-dea2800f11af" name="Changes" comment="both services communicate with each other">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/086422c90405ebce5cb32fc3bbbf2d28fe977808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f857f5dc2ca2918316cae14e4e661b143cf9114" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37033d2d2379d338fa05cb0e02583bc14d51c5ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37b0fae35443637ed0e21b8ad0ca1bf3c2c2e7e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6297b60a05bf4a381fea3a5fa3e70c57fec25a3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e56124322c3e5f0ce20e29856f0dd8ebde07919" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d512e47752ecdcf867386b23682e48ad5b716f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9ccbb938e2a30b1640a698896bd1386d5444b7a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a106acbd90b93270c10000b1d79e0fa515a6bc67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ecefcd8599963bfbcafd3057d276dd861e6dc6d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f03c525567e965c621025992839435ed973a3203" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/086422c90405ebce5cb32fc3bbbf2d28fe977808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f857f5dc2ca2918316cae14e4e661b143cf9114" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37033d2d2379d338fa05cb0e02583bc14d51c5ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/7/37b0fae35443637ed0e21b8ad0ca1bf3c2c2e7e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/2/6297b60a05bf4a381fea3a5fa3e70c57fec25a3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6e56124322c3e5f0ce20e29856f0dd8ebde07919" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7d512e47752ecdcf867386b23682e48ad5b716f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9ccbb938e2a30b1640a698896bd1386d5444b7a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a106acbd90b93270c10000b1d79e0fa515a6bc67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/c/ecefcd8599963bfbcafd3057d276dd861e6dc6d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f03c525567e965c621025992839435ed973a3203" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/customer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/fraud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/StartupApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/controllers/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/dto/OrderLineItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/exception/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/exception/OrderNullableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/exception/ProductNullableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/httpResponse/createNewProduct.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/model/OrderLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/persistence/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/services/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/main/java/code/with/vanilson/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory/src/test/java/code/with/vanilson/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84e3c46a-a61a-4bf4-aea5-73e5d64c77a4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/code/with/vanilson/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/classes/code/with/vanilson/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/classes/code/with/vanilson/CustomerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/code/with/vanilson/FraudCheckHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/code/with/vanilson/FraudApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/code/with/vanilson/FraudApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/target/classes/code/with/vanilson/FraudCheckHistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/classes/code/with/vanilson/FraudCheckHistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +90,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,12 +103,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -44,41 +126,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;002-fraud&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamuhong/Documents/Formation 2023/microservice/fraud/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "HTTP Request.generated-requests | #36.executor": "Run",
+    "Maven.microservice [clean,install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.StartupApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "002-fraud",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/backend/microservice/inventory/src/main/java/code/with/vanilson",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.10263932",
+    "project.structure.side.proportion": "0.41811848",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="code.with.vanilson" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\backend\microservice\inventory\src\main\java\code\with\vanilson" />
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\microservice\fraud\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="code.with.vanilson" />
+    </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #36">
+  <component name="RunManager" selected="Spring Boot.StartupApplication">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="349fdfe7-c0bc-40e1-9943-01b17af2ee6d" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.Main" />
+      <module name="customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -103,10 +242,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="inventory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="code.with.vanilson.StartupApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #36" />
         <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #36" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +283,20 @@
       <option name="presentableId" value="Default" />
       <updated>1701861017501</updated>
       <workItem from="1701861021380" duration="3315000" />
+      <workItem from="1702886133772" duration="3371000" />
+      <workItem from="1702898703048" duration="1502000" />
+      <workItem from="1703241178105" duration="164000" />
+      <workItem from="1704729152793" duration="3711000" />
+      <workItem from="1704735655910" duration="1712000" />
+      <workItem from="1704821230424" duration="1828000" />
+      <workItem from="1705569137338" duration="3605000" />
+      <workItem from="1706102111218" duration="954000" />
+      <workItem from="1706270170582" duration="507000" />
+      <workItem from="1706274802581" duration="1928000" />
+      <workItem from="1706282372024" duration="4000" />
+      <workItem from="1706284498368" duration="1169000" />
+      <workItem from="1710264259327" duration="3628000" />
+      <workItem from="1710935678964" duration="8007000" />
     </task>
     <task id="LOCAL-00003" summary="both services communicate with each other">
       <option name="closed" value="true" />
@@ -144,11 +306,30 @@
       <option name="project" value="LOCAL" />
       <updated>1701865380338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="both services communicate with each other">
+      <option name="closed" value="true" />
+      <created>1702886220587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702886220587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

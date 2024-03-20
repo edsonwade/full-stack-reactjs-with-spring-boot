@@ -1,1 +1,2 @@
 .env
+customer/src/main/resources/application.properties

@@ -31,4 +31,6 @@ public class FraudCheckHistory implements Serializable {
     private Integer customerId;
     private Boolean isFraudster;
     private LocalDateTime createdAt;
+
+
 }
