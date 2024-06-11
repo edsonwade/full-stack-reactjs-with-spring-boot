@@ -8,7 +8,7 @@
         <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>code.vanilson</groupId>
+    <groupId>code.with.vanilson</groupId>
     <artifactId>simple-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -19,15 +19,9 @@
     </modules>
     <properties>
         <maven-compiler-plugin.version>3.9.0</maven-compiler-plugin.version>
+        <java.version>17</java.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>Github packages</name>
-            <url>https://maven.pkg.github.com/edsonwade/Spring-Boot-And-React-APP</url>
-        </repository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="backend (1) (code.with.vanilson)" />
+        <module name="backend" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="backend" options="-parameters" />
       <module name="backend (1) (code.with.vanilson)" options="-parameters" />
+      <module name="simple-api" options="-parameters" />
     </option>
   </component>
 </project>

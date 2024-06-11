@@ -1,22 +1,40 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
   application:
-    name: simple-api
+    name: backend-service
   datasource:
-    url: jdbc:postgresql:http//localhost:5432/${POSTGRES_DB}
+    url: jdbc:postgresql://localhost:5432/backend_service
     username: ${POSTGRES_USERNAME}
     password: ${POSTGRES_PASSWORD}
   jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: 'true'
-    hibernate:
-      ddl-auto: none
-      show_sql: 'true'
+        format_sql: true
+    flyway:
+      locations: classpath:db/migration/
+      baseline-on-migrate: true
+      enabled: true
+      baseline-description: "init"
+      baseline-version: 0
+      repair: true
+      outOfOrder: true
 
-
-
-
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"  # Exposes all endpoints; use specific endpoint IDs to limit exposure
+        base-path: "/management"  # Base path for actuator endpoints
+    endpoint:
+      health:
+        show-details: always  # Options are 'never', 'when-authorized', or 'always'
+      info:
+        enabled: true  # Enables the info endpoint
