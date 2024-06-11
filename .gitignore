@@ -1,3 +1,4 @@
 .env
+docker-application.env
 
 .idea/sonarlint

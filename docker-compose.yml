@@ -1,43 +1,42 @@
-version: "3.8"
+version: '3.8'
 
 services:
   postgres:
-    container_name: postgres
-    image: postgres
-    environment:
-      PGDTA: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-
+    container_name: postgres-db
+    image: postgres:latest
+    restart: unless-stopped
     volumes:
-      - postgres:/data/postgres
+      - $HOME/database/security:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5433:5432"
+    expose:
+      - 5432
+    environment:
+      POSTGRES_DB: security
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: pass
+      SERVICE_TAGS: prod
+      SERVICE_NAME: postgresdb_security
     networks:
+      - security_network
+
+  security_service:
+    build:
+      context: ./backend  # Adjust the context path as per your project structure
+      dockerfile: Dockerfile  # Specify the Dockerfile name if it's different
+    container_name: security_service_container
+    restart: unless-stopped
+    ports:
+      - "8081:8081"
+    expose:
+      - 8081
+    env_file:
+      - docker-application.env
+    depends_on:
       - postgres
-    restart: unless-stopped
-
-  pgadmin:
-    container_name: pgadmin
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4}
-      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-pgadmin4}
-      PGADMIN_CONFIG_SERVER_MODE: 'false'
-    volumes:
-      - pgadmin:/var/lib/pgadmin
-    ports:
-      - "5050:80"
     networks:
-      - pgadmin
-    restart: unless-stopped
-
-
+      - security_network
 
 networks:
-  mindswap-net:
+  security_network:
     driver: bridge
-
-volumes:
-  postgres:
-  pgadmin:
