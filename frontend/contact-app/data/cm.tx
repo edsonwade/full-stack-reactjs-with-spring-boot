@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon your_script.js"
+  }
+}
+
+npm install -g nodemon
+
+
+npm install --save-dev nodemon
