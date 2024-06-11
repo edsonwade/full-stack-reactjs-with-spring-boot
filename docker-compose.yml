@@ -12,7 +12,7 @@ services:
     expose:
       - 5432
     environment:
-      POSTGRES_DB: security
+      POSTGRES_DB: backend_service
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: pass
       SERVICE_TAGS: prod
