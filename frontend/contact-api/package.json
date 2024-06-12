@@ -1,0 +1,44 @@
+{
+  "name": "contactapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "test": "../contactapp/node_modules/.bin/react-scripts test",
+    "eject": "../contactapp/node_modules/.bin/react-scripts eject",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && ../contactapp/node_modules/.bin/react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && ../contactapp/node_modules/.bin/react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
