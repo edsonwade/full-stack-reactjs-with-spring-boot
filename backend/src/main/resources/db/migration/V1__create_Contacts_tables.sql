@@ -2,7 +2,7 @@ CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 -- Create the contacts table
 
-CREATE TABLE contacts (
+CREATE TABLE IF NOT EXISTS contacts (
                           contact_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
                           name VARCHAR(255),
                           email VARCHAR(255) UNIQUE NOT NULL,
