@@ -4,36 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="Backend finish&#10;Miss unit test and docker config.">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/data/cmd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="frontend done">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/CustomerWithEmailAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V2__create_customers_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c/storage_v2/_src_/database/backend_service.CqBLEg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c/storage_v2/_src_/database/backend_service.CqBLEg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/data/cm.tx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contact-app/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contactapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contactapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contactapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contactapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/contactapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/contactapp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1__create_Contacts_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1__create_Contacts_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +44,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="005-customer-api" />
+        <entry key="$PROJECT_DIR$" value="007-contact-api" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend/contactapp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -65,6 +68,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="008-security-api" />
+                    <option name="lastUsedInstant" value="1718211645" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="006-frontend-api" />
                     <option name="lastUsedInstant" value="1718141540" />
@@ -102,6 +109,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -130,7 +140,7 @@
     "Spring Boot.BackendApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "008-security-api",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/backend/full-stack-reactjs-with-spring-boot/frontend/contact-app/public",
     "node.js.detected.package.eslint": "true",
@@ -189,7 +199,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContactServiceTest.testGetContact">
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -300,6 +310,7 @@
       <workItem from="1709655123248" duration="5516000" />
       <workItem from="1718127647367" duration="15054000" />
       <workItem from="1718205617700" duration="5279000" />
+      <workItem from="1718211255991" duration="9613000" />
     </task>
     <task id="LOCAL-00001" summary="update projects">
       <option name="closed" value="true" />
@@ -349,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718139388546</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="frontend done">
+      <option name="closed" value="true" />
+      <created>1718211502571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718211502571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +382,7 @@
     <MESSAGE value="tk" />
     <MESSAGE value="configuration work fine." />
     <MESSAGE value="Backend finish&#10;Miss unit test and docker config." />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend finish&#10;Miss unit test and docker config." />
+    <MESSAGE value="frontend done" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend done" />
   </component>
 </project>

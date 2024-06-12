@@ -5,7 +5,7 @@ spring:
   application:
     name: backend-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/backend_service
+    url: jdbc:postgresql://localhost:5432/spring_security_auth
     username: ${POSTGRES_USERNAME}
     password: ${POSTGRES_PASSWORD}
   jpa:
@@ -38,3 +38,6 @@ spring:
         show-details: always  # Options are 'never', 'when-authorized', or 'always'
       info:
         enabled: true  # Enables the info endpoint
+
+secret:
+  key: "78b21640218f5b670749fac83ee354cac3081c9a1372df7fdafcff04dde7580a"
