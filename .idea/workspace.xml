@@ -4,37 +4,410 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="frontend done">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/CustomerWithEmailAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/code/with/vanilson/customer/jwt/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V2__create_customers_tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c/storage_v2/_src_/database/backend_service.CqBLEg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/edc5813b-df3a-4eb4-a384-0d2b59135d5c/storage_v2/_src_/database/backend_service.CqBLEg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1__create_Contacts_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/migration/V1__create_Contacts_tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/backend-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="53b7a702-bed3-48c5-9471-e80f43a24216" name="Changes" comment="securit jwt">
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/.bin/css-has-pseudo.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/.bin/lz-string" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/.bin/terser.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/core/lib/tools/build-external-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/eslint-parser/node_modules/semver/bin/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-compilation-targets/lib/filter-items.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-create-class-features-plugin/lib/fields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-create-regexp-features-plugin/lib/features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-environment-visitor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-module-transforms/lib/dynamic-import.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-string-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/helper-validator-option/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-syntax-optional-catch-binding/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-transform-dotall-regex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-transform-new-target/lib/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-transform-react-display-name/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/plugin-transform-unicode-regex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/runtime/helpers/esm/nullishReceiverError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/types/lib/comments/inheritTrailingComments.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@babel/types/lib/validators/react/isCompatTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@csstools/postcss-unset-value/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@eslint/eslintrc/node_modules/type-fest/source/mutable.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jest/console/node_modules/has-flag/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jest/core/build/lib/isValidPath.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jest/transform/node_modules/convert-source-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jest/transform/node_modules/source-map/source-map.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jridgewell/set-array/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@jridgewell/trace-mapping/dist/types/sourcemap-segment.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@nodelib/fs.stat/out/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@pmmmwh/react-refresh-webpack-plugin/loader/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@pmmmwh/react-refresh-webpack-plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@rushstack/eslint-patch/lib/usage.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@sinonjs/fake-timers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@surma/rollup-plugin-off-main-thread/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@surma/rollup-plugin-off-main-thread/tests/fixtures/amd-function-name/entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@svgr/babel-plugin-remove-jsx-empty-expression/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@svgr/core/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@testing-library/dom/node_modules/aria-query/lib/etc/roles/dpub/docPrefaceRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@testing-library/react/node_modules/@testing-library/dom/types/suggestions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@testing-library/react/node_modules/aria-query/lib/etc/roles/dpub/docExampleRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@testing-library/react/node_modules/aria-query/lib/etc/roles/dpub/docTocRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@types/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@types/graceful-fs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@types/jest/node_modules/jest-util/build/createDirectory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@types/jest/node_modules/supports-color/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@types/resolve/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/dist/rules/adjacent-overload-signatures.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/dist/rules/naming-convention-utils/parse-options.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/dist/rules/no-dupe-class-members.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-readonly.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/dist/rules/restrict-template-expressions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/eslint-plugin/docs/rules/unified-signatures.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/lib/base-config.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/lib/es2015.collection.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.full.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/lib/es2020.string.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/scope/TSEnumScope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/scope-manager/dist/variable/ImplicitLibVariable.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/typescript-estree/dist/create-program/createProjectProgram.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/typescript-estree/dist/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/@typescript-eslint/utils/_ts3.4/dist/ast-utils/eslint-utils/PatternMatcher.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/acorn-walk/dist/walk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/acorn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/dist/compile/jtd/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/dist/compile/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/dist/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/lib/refs/json-schema-2020-12/meta/unevaluated.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/lib/refs/json-schema-draft-07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/lib/vocabularies/applicator/prefixItems.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/lib/vocabularies/validation/enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-formats/node_modules/ajv/lib/vocabularies/validation/pattern.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/ajv-keywords/ajv-keywords.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/argparse/lib/action/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/argparse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/aria-query/lib/etc/roles/dpub/docCoverRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/aria-query/lib/etc/roles/literal/mathRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/array-buffer-byte-length/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/async/sortBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/async/times.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/asynciterator.prototype/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/asynciterator.prototype/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/autoprefixer/lib/autoprefixer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/axobject-query/lib/etc/objects/BusyIndicatorRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/axobject-query/lib/etc/objects/MenuItemRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/axobject-query/lib/etc/objects/RulerRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/babel-jest/build/loadBabelConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/babel-preset-react-app/webpack-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/bfj/src/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/bfj/test/unit/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/call-bind/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/camelcase/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/caniuse-lite/data/features/comparedocumentposition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/caniuse-lite/data/features/form-submit-attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/caniuse-lite/data/features/form-validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/caniuse-lite/data/features/mutation-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/check-types/src/check-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/clean-css/lib/optimizer/level-1/value-optimizers/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/collect-v8-coverage/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/color-name/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/color-name/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/colord/extend.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/common-tags/lib/commaLists/commaLists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/compression/node_modules/debug/src/inspector-log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/array/group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/instance/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/instance/trim-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/math/tanh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/object/group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/set/union.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/string/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/actual/string/small.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/es/array/virtual/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/es/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/es/string/ends-with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/features/array/virtual/flat-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/features/instance/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/features/string/virtual/is-well-formed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/full/array-buffer/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/full/date/get-year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/full/iterator/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/full/typed-array/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/function-apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/is-callable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/iterators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/set-iterate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/internals/typed-array-from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.array.push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.number.is-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.regexp.flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.string.big.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.string.blink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/modules/es.weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/proposals/array-grouping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/proposals/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/stable/array/to-spliced.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/stable/instance/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js-pure/stable/symbol/match-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/actual/global-this.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/actual/string/sup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/math/clz32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/number/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/number/is-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/object/lookup-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/string/from-code-point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/symbol/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/es/typed-array/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/features/array-buffer/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/features/array/virtual/reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/features/math/umulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/features/string/virtual/sup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/features/typed-array/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/full/date/to-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/full/instance/at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/full/instance/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/full/object/group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/full/string/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/internals/a-weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/internals/engine-is-ios-pebble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/es.date.to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/es.number.min-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/es.typed-array.reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/esnext.async-iterator.to-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/esnext.function.metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/esnext.function.un-this.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/modules/esnext.symbol.is-registered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/proposals/keys-composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/object/get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/string/pad-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/typed-array/fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/typed-array/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/core-js/stable/weak-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/crypto-random-string/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv-keywords/dist/definitions/select.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv-keywords/dist/keywords/deepRequired.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv-keywords/dist/keywords/range.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/dist/vocabularies/dynamic/dynamicRef.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/dist/vocabularies/errors.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/dist/vocabularies/jtd/nullable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/dist/vocabularies/validation/dependentRequired.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/dist/vocabularies/validation/limitItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/lib/compile/validate/boolSchema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-minimizer-webpack-plugin/node_modules/ajv/lib/vocabularies/validation/limitNumber.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-select/lib/pseudo-selectors/aliases.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-tree/lib/syntax/node/Brackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/css-tree/node_modules/source-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/csso/node_modules/css-tree/lib/generator/sourceMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/detect-port-alt/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/detect-port-alt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/emittery/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/enhanced-resolve/lib/UseFilePlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/entities/lib/maps/decode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2015/ObjectDefineProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2015/SameValueZero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2015/msFromTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2015/thisTimeValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2016/GetPrototypeFromConstructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2016/IsCompatiblePropertyDescriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2016/IsInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2017/DetachArrayBuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2018/Day.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2019/IsPropertyKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2019/OrdinarySetPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2019/ToLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2019/max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2021/HasOwnProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2022/BigInt/sameValueZero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2023/FindViaPredicate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-abstract/2023/IteratorStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-iterator-helpers/Iterator.prototype.take/auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/es-module-lexer/dist/lexer.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-import/docs/rules/no-relative-packages.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-import/lib/rules/no-dynamic-require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-jest/docs/rules/no-done-callback.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-jsx-a11y/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-jsx-a11y/__tests__/src/rules/no-noninteractive-element-interactions-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-jsx-a11y/docs/rules/anchor-has-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-aria-hidden-on-focusable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-react/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-plugin-react/lib/rules/require-optimization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv-keywords/src/keywords/regexp.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv/dist/vocabularies/jtd/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv/dist/vocabularies/jtd/union.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv/dist/vocabularies/jtd/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv/lib/2019.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint-webpack-plugin/node_modules/ajv/lib/vocabularies/errors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint/lib/rules/array-bracket-newline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint/lib/rules/multiline-ternary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint/lib/rules/space-before-function-paren.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint/messages/invalid-rule-severity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/eslint/node_modules/js-yaml/dist/js-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/esquery/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/estree-walker/dist/estree-walker.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/events/tests/remove-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fork-ts-checker-webpack-plugin/lib/logger/Logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fork-ts-checker-webpack-plugin/lib/logger/LoggerOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fork-ts-checker-webpack-plugin/lib/reporter/AggregatedReporter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/getDirectory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/fraction.js/fraction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/get-package-type/async.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/graphemer/lib/index.d.ts.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/graphemer/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/has-bigints/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/hpack.js/test/fixtures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/immer/dist/immer.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/immer/dist/types/types-internal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-path-inside/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-typedarray/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-weakmap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/is-weakset/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/istanbul-lib-source-maps/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-circus/node_modules/chalk/source/templates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-config/build/Deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-diff/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-jasmine2/node_modules/chalk/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-matcher-utils/node_modules/color-convert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-resolve/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-watch-typeahead/node_modules/jest-watcher/build/lib/Prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-watch-typeahead/node_modules/pretty-format/build/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-watcher/build/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jest-watcher/node_modules/supports-color/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/generated/Document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/generated/Headers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/generated/ScrollOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/generated/StaticRangeInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/helpers/dates-and-times.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/navigator/MimeTypeArray-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/nodes/HTMLHeadElement-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsdom/lib/jsdom/living/range/AbstractRange-impl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/jsx-ast-utils/src/values/expressions/UnaryExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/loader-utils/lib/getHashDigest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash.uniq/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/_compareMultiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/cloneWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/findLastIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/forEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/forIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/fp/uniqueId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/partialRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/lodash/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/mini-css-extract-plugin/dist/plugin-options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/mini-css-extract-plugin/node_modules/ajv-keywords/dist/keywords/regexp.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/mini-css-extract-plugin/node_modules/ajv-keywords/src/keywords/transform.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/mini-css-extract-plugin/node_modules/ajv/dist/vocabularies/validation/limitNumber.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/neo-async/concatSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/neo-async/omitLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/node-forge/lib/ed25519.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/node-forge/lib/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/node-forge/lib/mgf1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/node-forge/lib/sha512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/object-inspect/test/has.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/obuf/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/obuf/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/pkg-dir/node_modules/find-up/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-clamp/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-image-set-function/dist/lib/get-image.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-image-set-function/dist/lib/handle-invalidation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-js/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-media-minmax/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-merge-longhand/types/lib/colornames.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-nesting/dist/lib/merge-selectors/compound-selector-order.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-normalize/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-ordered-values/src/lib/vendorUnprefixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-ordered-values/src/rules/listStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss-svgo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/postcss/lib/fromJSON.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/react-dev-utils/launchEditorEndpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/react-dev-utils/node_modules/chalk/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/react-dev-utils/node_modules/has-flag/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/react-scripts/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate-unicode-properties/General_Category/Titlecase_Letter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate-unicode-properties/Script/Cuneiform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate-unicode-properties/Script/Takri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate-unicode-properties/Script_Extensions/Elymaic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate-unicode-properties/Script_Extensions/Palmyrene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerate/regenerate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/regenerator-runtime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/relateurl/lib/parse/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/resolve-url-loader/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/resolve-url-loader/node_modules/picocolors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/resolve/lib/normalize-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/resolve/test/shadowed_core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/serve-index/public/icons/page_white_get.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/serve-index/public/icons/page_white_wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/source-map-support/node_modules/source-map/lib/base64-vlq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/spdy-transport/lib/spdy-transport/protocol/spdy/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/static-eval/node_modules/levn/lib/cast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/static-eval/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/string-width/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/strip-indent/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/svgo/plugins/addAttributesToSVGElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/svgo/plugins/removeDesc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tailwindcss/lib/lib/collapseDuplicateDeclarations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tailwindcss/src/corePluginList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tailwindcss/src/lib/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tailwindcss/src/lib/partitionApplyAtRules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tailwindcss/src/util/hashConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tapable/tapable.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tmpl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tsconfig-paths/lib/config-loader.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tsconfig-paths/node_modules/.bin/json5.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tsconfig-paths/src/options.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/tsutils/typeguard/3.2/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/typescript/lib/lib.scripthost.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/amd/_forceNumericMinMax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/amd/_pusher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/amd/sortedIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/amd/tap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/cjs/pluck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/underscore/modules/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/undici-types/interceptors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv-keywords/dist/definitions/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv-keywords/dist/keywords/transform.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/dist/compile/jtd/types.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/dist/compile/names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/dist/vocabularies/core/ref.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/lib/compile/names.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/lib/types/jtd-schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/node_modules/ajv/lib/vocabularies/discriminator/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/types/utils/getPaths.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-middleware/types/utils/ready.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/dist/compile/ref_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/dist/runtime/validation_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/dist/vocabularies/core/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/dist/vocabularies/jtd/values.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/dist/vocabularies/unevaluated/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/node_modules/ajv/lib/vocabularies/validation/enum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack-dev-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/lib/OptimizationStages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/lib/dependencies/URLPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/lib/runtime/CreateFakeNamespaceObjectRuntimeModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/lib/sharing/ConsumeSharedRuntimeModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/lib/util/registerExternalSerializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/node_modules/estraverse/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/webpack/schemas/plugins/LoaderOptionsPlugin.check.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/which-typed-array/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/dist/compile/codegen/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/dist/compile/codegen/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/dist/vocabularies/discriminator/types.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/dist/vocabularies/dynamic/recursiveRef.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/dist/vocabularies/jtd/metadata.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-build/node_modules/ajv/lib/standalone/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-core/_private.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-core/src/_private.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-recipes/warmStrategyCache.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-routing/RegExpRoute.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactapp/node_modules/workbox-streams/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +442,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="009-security-filter" />
+                    <option name="lastUsedInstant" value="1718221982" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="008-security-api" />
                     <option name="lastUsedInstant" value="1718211645" />
                   </RecentBranch>
@@ -83,10 +460,6 @@
                   <RecentBranch>
                     <option name="branchName" value="004-configuration" />
                     <option name="lastUsedInstant" value="1718130909" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1718130908" />
                   </RecentBranch>
                 </list>
               </option>
@@ -310,7 +683,7 @@
       <workItem from="1709655123248" duration="5516000" />
       <workItem from="1718127647367" duration="15054000" />
       <workItem from="1718205617700" duration="5279000" />
-      <workItem from="1718211255991" duration="9613000" />
+      <workItem from="1718211255991" duration="10015000" />
     </task>
     <task id="LOCAL-00001" summary="update projects">
       <option name="closed" value="true" />
@@ -368,7 +741,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718211502571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="securit jwt">
+      <option name="closed" value="true" />
+      <created>1718221873614</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718221873614</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +764,7 @@
     <MESSAGE value="configuration work fine." />
     <MESSAGE value="Backend finish&#10;Miss unit test and docker config." />
     <MESSAGE value="frontend done" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend done" />
+    <MESSAGE value="securit jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="securit jwt" />
   </component>
 </project>
