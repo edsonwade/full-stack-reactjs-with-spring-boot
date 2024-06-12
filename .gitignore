@@ -2,3 +2,6 @@
 docker-application.env
 
 .idea/sonarlint
+
+
+#backend/src/main/resources/application.yml
