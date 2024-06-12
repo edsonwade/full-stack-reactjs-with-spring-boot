@@ -39,5 +39,9 @@ spring:
       info:
         enabled: true  # Enables the info endpoint
 
-secret:
-  key: "78b21640218f5b670749fac83ee354cac3081c9a1372df7fdafcff04dde7580a"
+application:
+  security:
+    jwt:
+      secret-key: "4bb6d1dfbafb64a681139d1586b6f1160d18159afd57c8c79136d7490630407c"
+      access-token-expiration: "86400000"
+      refresh-token-expiration: "604800000"

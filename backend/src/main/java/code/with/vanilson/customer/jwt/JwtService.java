@@ -1,12 +1,13 @@
 package code.with.vanilson.customer.jwt;
 
 import code.with.vanilson.customer.Customer;
-import code.with.vanilson.customer.CustomerDetails;
+import code.with.vanilson.customer.repository.TokenRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
@@ -23,22 +24,35 @@ import java.util.function.Function;
 @Service
 public class JwtService {
 
-    @Value("${secret.key}")
-    String token;
-    private final String SECRET_KEY = token;
+    @Value("${application.security.jwt.secret-key}")
+    private String secretKey;
+
+    @Value("${application.security.jwt.access-token-expiration}")
+    private long accessTokenExpire;
+
+    @Value("${application.security.jwt.refresh-token-expiration}")
+    private long refreshTokenExpire;
+
+
+
+    private final TokenRepository tokenRepository;
+
+    public JwtService(TokenRepository tokenRepository) {
+        this.tokenRepository = tokenRepository;
+    }
 
     public <T> T extractClaims(String token, Function<Claims, T> resolver) {
         var claims = extractClaims(token);
         return resolver.apply(claims);
     }
 
-    public boolean isValid(String token, Customer customer) {
+    public boolean isValid(String token, UserDetails userDetails) {
         var username = extractUsername(token);
-        return (username.equals(customer.getUsername())) && !isTokenExpired(token);
+        return (username.equals(userDetails.getUsername())) && isExpiredToken(token);
     }
 
-    private boolean isTokenExpired(String token) {
-        return extractExpiration(token).before(new Date());
+    private boolean isExpiredToken(String token) {
+        return !extractExpiration(token).before(new Date());
     }
 
     private Date extractExpiration(String token) {
@@ -57,18 +71,37 @@ public class JwtService {
                 .getPayload();
     }
 
-    public String generateToken(Customer customer) {
+    public String generateToken(Customer customer, long expireTime) {
         return Jwts.builder()
                 .subject(customer.getUsername())
                 .issuedAt(new Date(System.currentTimeMillis()))
-                .expiration(new Date(System.currentTimeMillis() + 1000 * 60 * 60 * 24))
+                .expiration(new Date(System.currentTimeMillis() + expireTime))
                 .signWith(getSigningKey())
                 .compact();
 
     }
 
+    public boolean isValidRefreshToken(String token, Customer customer) {
+        String username = extractUsername(token);
+
+        boolean validRefreshToken = tokenRepository
+                .findByRefreshToken(token)
+                .map(t -> !t.isLoggedOut())
+                .orElse(false);
+
+        return (username.equals(customer.getUsername())) && isExpiredToken(token) && validRefreshToken;
+    }
+
+    public String generateAccessToken(Customer customer) {
+        return generateToken(customer, accessTokenExpire);
+    }
+
+    public String generateRefreshToken(Customer customer) {
+        return generateToken(customer, refreshTokenExpire);
+    }
+
     private SecretKey getSigningKey() {
-        var keyBytes = Decoders.BASE64URL.decode(SECRET_KEY);
+        var keyBytes = Decoders.BASE64URL.decode(secretKey);
         return Keys.hmacShaKeyFor(keyBytes);
     }
 }

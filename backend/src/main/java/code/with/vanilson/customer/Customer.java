@@ -1,5 +1,6 @@
 package code.with.vanilson.customer;
 
+import code.with.vanilson.customer.token.Token;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.*;
@@ -44,6 +45,9 @@ public class Customer implements UserDetails {
     private String phone;
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @OneToMany(mappedBy = "customer")
+    private List<Token> tokens;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
